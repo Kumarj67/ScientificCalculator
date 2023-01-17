@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ecf0f3;
+  min-height: 100vh;
+}
+.container {
+  width: 28%;
+  height: 45vh;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 20px #cbced1, -12px -12px 20px #ffff;
+}
+.name {
+  justify-content: center;
+  display: flex;
+  font-weight: 300;
+  font-style: italic;
+}
+.display #screen {
+  width: 97%;
+  height: 76px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  background: #ecf0f3;
+  padding-right: 0.5em;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffff;
+}
+.btns {
+  width: 100%;
+  margin-top: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btns .row button {
+  width: 80px;
+  height: 35px;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffffff;
+  transition: 0.2s;
+}
+.btns .row button:hover {
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #ffff;
+
+  background: #ffff;
+}
+#eval {
+  background-color: #33ccff;
+  color: #ffff;
+  box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
+}
+#eval:hover {
+  box-shadow: inset 5px 5px 8px #8c9da3, inset -5px -5px 8px #00ace6;
+}
+
+#CE {
+  background-color: #f71414;
+  color: #ffff;
+  box-shadow: inset 5px 5px 8px #543232, inset -5px -5px 8px #8b2424;
+}
+#CE:hover {
+  box-shadow: inset 5px 5px 8px #a31414, inset -5px -5px 8px #c01515;
+}
+#AC {
+  background-color: #15b906;
+  color: #ffff;
+  box-shadow: inset 5px 5px 8px #0bbd73, inset -5px -5px 8px #09c418;
+}
+#AC:hover {
+  box-shadow: inset 5px 5px 8px #94dbaa, inset -5px -5px 8px #3d4b3e;
+}
